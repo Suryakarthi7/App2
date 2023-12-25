@@ -74,9 +74,10 @@ const [displayForm,setDisplayform] = React.useState(true);
   return (
     <>
       
-      <h1> mercury </h1>
+      <h1 id='title1'> mercury </h1>
  
-   <img src='https://static.asianpaints.com/content/dam/asian_paints/services/sps-painting-service-banner-new.webp' id='image1'/>
+   <img src='https://images.pexels.com/photos/1669754/pexels-photo-1669754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' id='image1'/>
+   
     
     <div id='three'>
     <p> Painting your home is exciting, but choosing the right colours, products, and house painters while ensuring your family’s safety can be a huge task. That's where we come in with our </p>
@@ -128,7 +129,7 @@ const [displayForm,setDisplayform] = React.useState(true);
  </div>
 
  <p> hi </p>
- 
+
 
 
 
