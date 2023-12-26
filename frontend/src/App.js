@@ -17,7 +17,9 @@ import HealthAndSafetyIcon from '@mui/icons-material/HealthAndSafety';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Divider from '@mui/material/Divider';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-
+import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
+import ComputerIcon from '@mui/icons-material/Computer';
+import ColorLensIcon from '@mui/icons-material/ColorLens';
 
 function App() {
 
@@ -127,12 +129,107 @@ const [displayForm,setDisplayform] = React.useState(true);
  </div>
 
  </div>
+<br />
+ <h1 id='three'> We help you with </h1>
+<br />
 
- <p> We help you with the a is </p>
+<div id='fourImages'> 
+
+  <div>
+    <img src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/services/services-safe-painting-offerings-texture-asian-paints.webp' id='image5'/>
+  </div>
+
+  <div>
+    <img src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/services/wallpaper-a-sps.webp' id='image5'/>
+  </div>
+
+  <div>
+    <img src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/services/sps-offerings-waterproofing-asian-paints-new.webp' id='image5'/>
+  </div>
+
+  <div>
+    <img src='https://static.asianpaints.com/content/dam/asian_paints/sps_overhaul/webp-images/services/services-safe-painting-offerings-wood-finishes-asian-paints.webp' id='image5'/>
+  </div>
 
 
+</div>
 
+<div id='fourContent'>
 
+  <div>
+    <p> <b> Wall Textures </b> </p>
+    <br />
+    <p> High-quality textured designs to get a </p>
+    <p> modern facelift for your homes and </p>
+    <p> other spaces. </p>
+  </div>
+
+  <div>
+    <p> <b> Wallpapers </b> </p>
+    <br />
+    <p> Designer wallpapers with attractive </p>
+    <p> patterns which works wonders in </p>
+    <p> elevating house walls. </p>
+  </div>
+
+  <div>
+    <p> <b> Waterproofing  </b> </p>
+    <br />
+    <p> Devised modern waterproofing </p>
+    <p> techniques to make your home water </p>
+    <p> resistant for years to come. </p>
+    
+  </div>
+
+  <div>
+    <p> <b> Wood Finishes </b> </p>
+    <br />
+    <p> Preserve the beauty of your wood with </p>
+    <p> a touch of style and luxury that goes </p>
+    <p>  hand in hand. </p>
+  </div>
+
+</div>
+<br />
+<br />
+<br />
+
+<div id='books1'> 
+  
+<div id='book1'>
+<LibraryBooksIcon id='book'/>
+<h3> Schedule an appointment </h3>
+<br />
+<p> Fill the form online and with your details, </p>
+<p> following which, you will receive a call  </p>
+<p> from our customer care executive to </p>
+<p> schedule an appointment for our Asian </p>
+<p> Paints Safe Painting Service. </p>
+</div>
+
+<div id='book1'>
+<ComputerIcon id='book'/> 
+<h3> Product & site consultation </h3>
+<br />
+<p> Our Asian Paints Safe Painting Service </p>
+<p>  Associate will get in touch with you. The </p>
+<p> associate will assist with all your </p>
+<p> queries, and provide a product and site </p>
+<p> consultation. </p>
+</div>
+
+<div id='book1'>
+<ColorLensIcon id='book'/>
+<h3> Schedule an appointment </h3>
+<br />
+<p>  Asian Paints Safe Painting Service offers </p>
+<p> a curated selection of our favourite safe </p>
+<p> painting colours for you to choose from. </p>
+<p>  Our expert will help you finalize the </p>
+<p> colours. </p>
+</div>
+
+</div>
 
  
 

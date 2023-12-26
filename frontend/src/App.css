@@ -74,3 +74,35 @@
   padding-left: 10px;
   
 }
+#image5{
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+}
+#fourImages{
+  display: flex;
+  justify-content: space-evenly;
+}
+#fourContent{
+  display: flex;
+  justify-content: space-evenly;
+}
+#book{
+  font-size: 80px;
+  color: #620fba;
+ 
+}
+#book1{
+  width: 320px;
+  height: auto;
+  border-style: solid;
+  border-color: #f1edf5;
+  background-color: #f1edf5;
+  margin-top: 60px;
+  text-align: center;
+  border-radius: 10px;
+}
+#books1{
+  display: flex;
+  justify-content: space-evenly;
+}
