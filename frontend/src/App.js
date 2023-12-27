@@ -20,6 +20,15 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import ComputerIcon from '@mui/icons-material/Computer';
 import ColorLensIcon from '@mui/icons-material/ColorLens';
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CopyrightIcon from '@mui/icons-material/Copyright';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function App() {
 
@@ -72,6 +81,8 @@ const handleDelete = () =>{
 const [display1,setDisplay1]=React.useState(true);
 
 const [displayForm,setDisplayform] = React.useState(true);
+
+
 
   return (
     <>
@@ -230,14 +241,112 @@ const [displayForm,setDisplayform] = React.useState(true);
 </div>
 
 </div>
+<br /> <br />
 
- 
+<h2 id='three1'> FAQs</h2>
+
+<div id='accordion'>
+  <Paper elevation={3}>
+ <Accordion>
+  <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+     <Typography> <h2> What is Asian Paints Safe Painting Service? </h2> </Typography>
+     </AccordionSummary>
+     <AccordionDetails>
+      <Typography>
+      We at Asian Paints are here to facilitate a professional experience and to that end, have partnered with service providers and painting professionals all over India. The </Typography>
+      <Typography> Safe Painting Service connects you with a service provider/painting professional who will help deliver safe and hygienic home painting/sanitization services using </Typography>
+     <Typography> genuine and quality Asian Paints products. The service also allows for free consultation with our representative to assist in the selection of paint products, shades, </Typography>
+     <Typography> textures, etc. </Typography>
+     
+     </AccordionDetails>
+</Accordion>
+</Paper>
+
+<Paper elevation={3}>
+ <Accordion>
+  <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+     <Typography> <h2> How will Asian Paints Safe Painting Service go about painting your home? </h2> </Typography>
+     </AccordionSummary>
+     <AccordionDetails>
+      <Typography>As part of this service, our representative will contact you to understand your painting needs. The associate will visit your premises and do the site evaluation. Based </Typography>
+      <Typography> on the site evaluation and your painting/sanitization requirements, the associate will provide the service provider’s quotation for painting your premises. All the</Typography>
+      <Typography>processes are carried out while following stringent safety protocols which include temperature checks, site sanitization, enhanced supervision and 10+ safety </Typography>
+      <Typography>measures to ensure a safe environment. The Supervisor will also be available to assist the site on regular intervals, or, on need basis to do quality checks and supervise </Typography>
+      <Typography>the painting work. </Typography>
+     
+     </AccordionDetails>
+</Accordion>
+</Paper>
 
 
 
+<Paper elevation={3}>
+ <Accordion>
+  <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+     <Typography> <h2>Who will paint my house? </h2> </Typography>
+     </AccordionSummary>
+     <AccordionDetails>
+      <Typography> We have a panel of contractors and painters with the service providers, who are trained by us with respect to our product range. The painters are trained to ensure</Typography>
+      <Typography> that the correct application procedures are followed. They are also trained in textures and specialty paint finishes.</Typography>
+    
+     
+     </AccordionDetails>
+</Accordion>
+</Paper>
 
 
 
+<Paper elevation={3}>
+ <Accordion>
+  <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+     <Typography> <h2> What are the features of Asian Paints Safe Painting Service? </h2> </Typography>
+     </AccordionSummary>
+     <AccordionDetails>
+      <Typography>- Stringent safety protocols are followed </Typography>
+      <Typography> - Get expert guidance for product and shade selection</Typography>
+      <Typography>- Complete supervision during the execution of site </Typography>
+      <Typography>- Complete site sanitization </Typography>
+      <Typography> - Asian Paints product warranty</Typography>
+     
+     </AccordionDetails>
+</Accordion>
+</Paper>
+
+
+
+<Paper elevation={3}>
+ <Accordion>
+  <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+     <Typography> <h2> What are the benefits of Asian Paints Safe Painting Service?</h2> </Typography>
+     </AccordionSummary>
+     <AccordionDetails>
+      <Typography>- Peace of mind as we ensure complete safety for you and your family </Typography>
+      <Typography> - A complete hassle-free experience</Typography>
+      <Typography> - Visualize how your home will look like with your selected colours via our consultation</Typography>
+      <Typography>- Access to some of the industry’s best products for wallpapers and textures </Typography>
+      <Typography>- Expert painters who provide a superior finish </Typography>
+     
+     </AccordionDetails>
+</Accordion>
+</Paper>
+
+</div>
+<br />
+
+<div id='footer1'>
+
+<div id='copyright1'>
+  <p> <CopyrightIcon id='copyright'/> </p>
+ <p id='asian1'> asian paints - all rights reserved </p>
+  </div>
+
+<div id='socialicons'>
+  <p> <FacebookIcon /> </p>
+  <p> <TwitterIcon /> </p>
+  <p> <InstagramIcon /> </p>
+</div>
+
+</div>
 
     </>
 

@@ -106,3 +106,37 @@
   display: flex;
   justify-content: space-evenly;
 }
+#three1{
+  padding-left: 50px;
+}
+#accordion{
+  width: 95%;
+  padding-left: 40px;
+}
+#copyright{
+  font-size: 18px;
+}
+#copyright1{
+  display: flex;
+}
+#asian1{
+  padding-left: 10px;
+  transform: translateY(-4px);
+}
+#footer1{
+  display: flex;
+  color: white;
+  background-color: black;
+  height:64px;
+}
+#socialicons{
+  display: flex;
+  padding-left: 900px;
+  justify-content: space-evenly;
+  width: 150px;
+  padding-top: 20px;
+}
+#copyright1{
+  padding-left: 20px;
+  padding-top: 20px;
+}
