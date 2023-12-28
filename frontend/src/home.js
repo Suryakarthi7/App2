@@ -200,7 +200,7 @@ const [displayForm,setDisplayform] = React.useState(true);
 <h2 id='three1'> FAQs</h2>
 
 <div id='accordion'>
-<Paper elevation={3}>
+
 <Accordion>
 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
    <Typography> <h2> What is Asian Paints Safe Painting Service? </h2> </Typography>
@@ -214,9 +214,9 @@ const [displayForm,setDisplayform] = React.useState(true);
    
    </AccordionDetails>
 </Accordion>
-</Paper>
 
-<Paper elevation={3}>
+
+
 <Accordion>
 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
    <Typography> <h2> How will Asian Paints Safe Painting Service go about painting your home? </h2> </Typography>
@@ -230,11 +230,11 @@ const [displayForm,setDisplayform] = React.useState(true);
    
    </AccordionDetails>
 </Accordion>
-</Paper>
 
 
 
-<Paper elevation={3}>
+
+
 <Accordion>
 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
    <Typography> <h2>Who will paint my house? </h2> </Typography>
@@ -246,11 +246,11 @@ const [displayForm,setDisplayform] = React.useState(true);
    
    </AccordionDetails>
 </Accordion>
-</Paper>
 
 
 
-<Paper elevation={3}>
+
+
 <Accordion>
 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
    <Typography> <h2> What are the features of Asian Paints Safe Painting Service? </h2> </Typography>
@@ -264,11 +264,11 @@ const [displayForm,setDisplayform] = React.useState(true);
    
    </AccordionDetails>
 </Accordion>
-</Paper>
 
 
 
-<Paper elevation={3}>
+
+
 <Accordion>
 <AccordionSummary expandIcon={<ExpandMoreIcon />} >
    <Typography> <h2> What are the benefits of Asian Paints Safe Painting Service?</h2> </Typography>
@@ -282,7 +282,7 @@ const [displayForm,setDisplayform] = React.useState(true);
    
    </AccordionDetails>
 </Accordion>
-</Paper>
+
 
 </div>
 <br />
@@ -291,7 +291,7 @@ const [displayForm,setDisplayform] = React.useState(true);
 
 <div id='copyright1'>
 <p> <CopyrightIcon id='copyright'/> </p>
-<p id='asian1'> asian paints - all rights reserved </p>
+<p id='asian1'> mercury - all rights reserved </p>
 </div>
 
 <div id='socialicons'>
